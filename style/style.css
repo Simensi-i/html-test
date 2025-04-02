@@ -1,0 +1,25 @@
+body{
+    background-color: #1e1f28;
+}
+main{
+    background-color: #1e1f28;
+}
+h1 {
+    color:#f1f3fb;
+    font-size: 36px;
+    font-weight: 700;
+    font-family: 'Andale Mono', monospace;
+}
+input, textarea, select{
+    background-color: #2f2d3d;
+    color: white;
+}
+label {
+    color: #7c7887;
+}
+
+
+button{
+    background-color: #6e37ce;
+    color: #f1f3fb;
+}
