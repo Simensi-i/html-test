@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Форма контактов</title>
+    <link rel="stylesheet" href="./style/style.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Свяжитесь со мной</h1>
+      <form action="#">
+        <div>
+          <label for="email">E-mail*</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            required
+            placeholder="E-mail*" />
+        </div>
+        <div>
+          <label for="telegram">Telegram</label>
+          <input
+            type="text"
+            name="telegram"
+            id="telegram"
+            placeholder="Telegram" />
+        </div>
+        <div>
+          <label for="them">Тема*</label>
+          <select name="them" id="them" required>
+            <option value="1">Приобритение курсов</option>
+            <option value="2">Продажа курсов</option>
+          </select>
+        </div>
+        <div>
+          <label for="commend">Комментарий</label>
+          <textarea name="commend" id="commend" cols="30" rows="10"> </textarea>
+        </div>
+        <button>Отправить</button>
+      </form>
+    </main>
+  </body>
+</html>
