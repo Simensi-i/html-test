@@ -10,7 +10,8 @@
     <main>
       <h1>Свяжитесь со мной</h1>
       <form action="#">
-        <div>
+        <div class="field">
+          <img src="./images/Email.svg" alt="Email" />
           <label for="email">E-mail*</label>
           <input
             type="email"
@@ -19,7 +20,8 @@
             required
             placeholder="E-mail*" />
         </div>
-        <div>
+        <div class="field">
+          <img src="./images/Telegram.svg" alt="Telegram" />
           <label for="telegram">Telegram</label>
           <input
             type="text"
@@ -27,14 +29,15 @@
             id="telegram"
             placeholder="Telegram" />
         </div>
-        <div>
+        <div class="field">
+          <img src="./images/Them.svg" alt="Them" />
           <label for="them">Тема*</label>
           <select name="them" id="them" required>
             <option value="1">Приобритение курсов</option>
             <option value="2">Продажа курсов</option>
           </select>
         </div>
-        <div>
+        <div class="field">
           <label for="commend">Комментарий</label>
           <textarea name="commend" id="commend" cols="30" rows="10"> </textarea>
         </div>
